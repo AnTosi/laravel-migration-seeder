@@ -14,10 +14,19 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <h3>Ciao</h3>
-        @foreach ($flights as $flight)
-            <p>{{ $flight->package_name }}</p>
-            
-        @endforeach
+        <h3>Magnifica agenzia turistica Boolean presenta:
+        </h3>
+        <div class="package_container d-flex flex-wrap">
+            @foreach ($flights as $flight)
+                <div class="card mx-2">
+                    <h2>{{$flight->location}}</h2>
+                    <p>Dal {{$flight->leave_date}} al {{$flight->return_date}}</p>
+                    <p>A soli {{$flight->price}} dobloni</p>
+                    <p>{{$flight->package_name}}!!!</p>
+                </div>
+                
+            @endforeach
+
+        </div>
     </body>
 </html>
