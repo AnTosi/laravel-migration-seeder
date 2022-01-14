@@ -6,7 +6,7 @@
 <div class="package_container d-flex flex-wrap justify-content-center">
     @foreach ($flights as $flight)
         <div class="card mx-2 my-3 p-3 text-center">
-            <a href="">
+            <a href="other">
                 <h2>{{$flight->location}}</h2>
                 <p>Dal {{$flight->leave_date}} al {{$flight->return_date}}</p>
                 <p>A soli {{$flight->price}} dobloni</p>
