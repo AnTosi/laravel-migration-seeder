@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MovieController@index');
+Route::get('/', 'FlightController@index');
+
+Route::get('/other', 'PageController@other');

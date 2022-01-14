@@ -12182,6 +12182,12 @@ p {
 }
 
 .card {
-  width: 350px;
+  width: 300px;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 5px #646363;
+}
+
+.package_container {
+  max-width: 1440px;
 }
 

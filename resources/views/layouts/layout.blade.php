@@ -14,6 +14,16 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
+        <header class="my-3 text-center">
+            <h1>
+                Questo è l'header
+            </h1>
+        </header>
         @yield('content')
+        <footer>
+            <h1 class="my-3 text-center">
+                Questo è il footer
+            </h1>
+        </footer>
     </body>
 </html>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Flight;
 
-class MovieController extends Controller
+class FlightController extends Controller
 {
     public function index()
     {

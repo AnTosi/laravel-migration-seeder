@@ -10,5 +10,11 @@ p {
 }
 
 .card {
-    width: 350px;
+    width: 300px;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 5px rgb(100, 99, 99);
+}
+
+.package_container{
+    max-width: 1440px;
 }
