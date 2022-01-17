@@ -9,6 +9,6 @@ class PageController extends Controller
     public function other()
     {
         
-        return view('other');
+        return view('blog');
     }
 }

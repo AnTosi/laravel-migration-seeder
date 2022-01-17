@@ -1,5 +1,6 @@
 //
-@use 'bootstrap';
+// @use 'bootstrap';
+$dark_text: rgba(0, 0, 0, 0.8);
 
 h3 {
     color: tomato;
@@ -9,13 +10,37 @@ p {
     color: grey;
 }
 
+body{
+    background-color: rgba(41, 41, 41, 0.103);
+}
+
 .card {
     width: 300px;
-    border-radius: 1.5rem;
-    box-shadow: 5px 5px 5px rgb(100, 99, 99);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(109, 107, 107, 0.466);
+    border: 2px solid lightgrey;
+    img {
+        object-fit: cover;
+        max-width: 100%;
+        height: 200px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
 }
 
 .package_container{
     max-width: 1440px;
     margin: auto;
+}
+
+h2 {
+    color: $dark_text;
+    text-decoration: none;
+    &:hover {
+        color: $dark_text;
+    }
+
+    &:visited {
+        color: $dark_text;
+    }
 }
