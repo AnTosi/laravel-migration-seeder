@@ -1,6 +1,6 @@
 @extends('layouts/layout')
 
-@section('page-title', 'Blog')
+@section('page-title', 'other')
 
 @section('content')
     <h2 class="m-3">

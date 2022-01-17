@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>@yield('page-title')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -15,9 +15,10 @@
     </head>
     <body>
         <header class="my-3 text-center">
-            <h1>
-                Questo è l'header
-            </h1>
+            <nav class="nav nav-tabs nav-stacked d-flex justify-content-around">          
+                <a class="nav-link" href="blog">Blog</a>
+                <a class="nav-link" href="other">Other</a>
+            </nav>
         </header>
         @yield('content')
         <footer>

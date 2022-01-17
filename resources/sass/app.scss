@@ -33,8 +33,7 @@ body{
     margin: auto;
 }
 
-h2 {
-    color: $dark_text;
+a {
     text-decoration: none;
     &:hover {
         color: $dark_text;
@@ -43,4 +42,10 @@ h2 {
     &:visited {
         color: $dark_text;
     }
+}
+
+h2 {
+    color: $dark_text;
+    text-decoration: none;
+    
 }
