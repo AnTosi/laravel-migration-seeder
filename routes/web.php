@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'FlightController@index');
 
 Route::get('/other', 'PageController@other');
+
+Route::get('flights/{flight}', 'FlightController@show')->name('flight');
