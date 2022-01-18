@@ -44,3 +44,14 @@ h2 {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
 }
+
+.card_post {
+  width: 800px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+.card_post img {
+  border-radius: 0;
+}

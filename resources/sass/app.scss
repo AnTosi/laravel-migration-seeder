@@ -49,3 +49,12 @@ h2 {
     text-decoration: none;
     
 }
+
+.card_post {
+    width: 800px;
+    height: fit-content;
+    margin: auto;
+    img {
+        border-radius: 0;
+    }
+}

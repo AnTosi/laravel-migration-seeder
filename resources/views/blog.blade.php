@@ -8,10 +8,11 @@
     </h2>
 
     @foreach ($posts as $post)
-        <div>
+        <div class="card card_post my-4 p-3">
             <h4>
                 {{$post->author}}
             </h4>
+            <img src="{{$post->image}}" alt="">
             <p>{{$post->text}}</p>
             <span>{{$post->time}} {{$post->date}}</span>
         </div>
