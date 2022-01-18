@@ -15,8 +15,11 @@
     </head>
     <body>
         <header class="my-3 text-center">
-            <nav class="nav nav-tabs nav-stacked d-flex justify-content-around">          
-                <a class="nav-link" href="blog">Blog</a>
+            <nav class="nav nav-tabs nav-stacked d-flex justify-content-around">
+                <div class="d-flex">
+                    <a class="nav-link" href="/">Home</a>         
+                    <a class="nav-link" href="blog">Blog</a>
+                </div>
                 <a class="nav-link" href="other">Other</a>
             </nav>
         </header>

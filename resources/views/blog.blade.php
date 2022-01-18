@@ -3,7 +3,7 @@
 @section('page-title', 'Blog')
 
 @section('content')
-    <h2 class="m-3">
+    <h2 class="m-3 text-center">
         Il nostro blog:
     </h2>
 
