@@ -15,10 +15,10 @@ class PostSeeder extends Seeder
     {
         for($i=0; $i < 12; $i++) {
             $_post = new Post();
-            $_post->author = $faker->name();
+            $_post->author = $faker->name($gender = null);
             $_post->date = $faker->date();
             $_post->time = $faker->time();
-            $_post->text = $faker->text(400);
+            $_post->text = $faker->realText(200);
             $_post->image = $faker->imageUrl($width = 640, $height = 480);
             $_post->save();
         }
