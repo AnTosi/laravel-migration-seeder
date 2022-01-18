@@ -17,6 +17,6 @@ Route::get('/', 'FlightController@index');
 
 Route::get('/other', 'PageController@other');
 
-Route::get('/blog', 'PageController@blog');
+Route::get('/blog', 'PostController@index');
 
 Route::get('flights/{flight}', 'FlightController@show')->name('flight');
